@@ -12,7 +12,7 @@ const client = new Client({
 });
 //*send message in console if our bot turn ON
 client.on("ready", () => {
-  console.log("The bot is ready!!");
+  console.log("The bot is ready!!!");
 });
 
 //*connect bot token
