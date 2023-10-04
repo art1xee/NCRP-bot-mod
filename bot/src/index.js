@@ -35,4 +35,4 @@ client.on("ready", () => {
   });
 });
 
-client.login(process.env.TOKEN); //* Connects the bot to Discord using the bot token
+client.login(process.env.TOKEN); //!you need a create .env file in bot folder in .env file add value with name TOKEN and than psate your discord bor token from developer portal discord
