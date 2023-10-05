@@ -23,7 +23,7 @@ module.exports = {
 module.exports = {
   callback: ({ message }) => {
     const { content } = message;
-    //!в будущем создавая новую команду - меняйте значение в скобках в нижней строчке if (content.startsWith("/accept"))
+    //!When creating a new command in the future, change the value in brackets in the bottom line if (content.startsWith("/accept"))
     if (content.startsWith("/accept")) {
       // Get command arguments
       // This code takes the first argument to the command, which is the name of the user to whom the message is being sent.
